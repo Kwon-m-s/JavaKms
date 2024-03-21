@@ -8,8 +8,9 @@ public class QuadraticEq {
 		double a,b,c; // 계수를 저장하기위한 변수
 		double discriminant, plus, minus; // 판별식, 근의 공식중 판별식을 더할경우와 뺄경우
 		
-		System.out.println("이차식의 계수를 입력해주세요 : ");
-		a = input.nextDouble();	
+		//System.out.println("이차식의 계수를 입력해주세요 : "); 이차식의 계수를 입력 받는 경우 사용
+		//a = input.nextDouble();	
+		a = 1;
 		
 		System.out.println("일차식의 계수를 입력해주세요 : ");
 		b = input.nextDouble();
@@ -30,7 +31,6 @@ public class QuadraticEq {
 			System.out.println("실근이 존재하지 않습니다");
 		}
 		
-
 	}
 
 }
